@@ -1,0 +1,63 @@
+.contact-page {
+   position: absolute;
+   top: 215%;
+   left: 10%;
+
+   h1 {
+      font-weight: 800;
+      font-size: 60px;
+   }
+
+   p {
+      color: #8D8D8D;
+      margin-top: 24px;
+      font-weight: 400;
+      font-size: 30px;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1s 1.8s backwards;
+   }
+
+   ul {
+      position: relative;
+      top: -175px;
+      left: 110%;
+      width: 100px;
+      display: block;
+      padding: 0;
+      list-style: none;
+      margin: 0;
+   
+      li {
+         a {
+            padding: 7px 0;
+            display: flex;
+            font-size: 50px;
+            line-height: 16px;
+            font-family: sans-serif;
+            z-index: 1;
+   
+            &:hover svg {
+               color: lightblue;
+            }
+
+            h2 {
+               width: 200px;
+               height: 20px;
+               position: absolute;
+               left: -10px;
+               opacity: 0%;
+               transition: all 0.5s;
+               z-index: 0;
+            }
+
+            h2:hover {
+               color: #000;
+               opacity: 100%;
+               transition: all 0.7s;
+               left: 60px;
+            }
+         }
+      }
+   }   
+}

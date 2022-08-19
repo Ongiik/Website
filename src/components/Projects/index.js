@@ -9,20 +9,28 @@ const Projects = () => {
       <h1 className="proj-head">Projects</h1>
       <div className="grid-container">
          <div className="card">
-            <img src={sudoku} alt="Sudoku" />
-            <a>Sudoku</a>
+            <a href="https://ongiik.github.io/SudokuApplication/" target="_blank">
+               <h2>Sudoku</h2>
+               <img src={sudoku} alt="Sudoku" />
+            </a>
          </div>
          <div className="card">
+         <a href="https://ongiik.github.io/BoogsMarket/" target="_blank">
+            <h2>Basix Market</h2>
             <img src={BoogsMarket} alt="Basix Market" />
-            <a>Basix Market</a>
+         </a>
          </div>
          <div className="card">
-            <img src={WeatherFellas} alt="Weather Fellas" />
-            <a>Weather Fellas</a>
+         <a href="https://ongiik.github.io/WeatherApplication/" target="_blank">
+            <h2>Weather Fellas</h2>
+            <img src={WeatherFellas} alt="Weather Fellas" href="https:/ongiik.github.io/WeatherApplication/" />
+         </a>
          </div>
          <div className="card">
+         <a>
+            <h2>In the works!</h2>
             <img src={InProgress} alt="In the works!" />
-            <a>In the works!</a>
+         </a>
          </div>
       </div>
    </>

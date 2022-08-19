@@ -1,12 +1,13 @@
 import './index.scss';
-import { Link } from 'react-router-dom';
+import Resume from '../../assets/Resume_KimBenen.pdf'
+
 const Header = () => {
 
    return (
       <>
       <navbar className='nav-bar'>
-         <a className='nav-buttons' id="name">Benen</a>
-         <a className='nav-buttons' to="/contact">contact</a>
+         <a className='nav-buttons' href="/" id="name">Benen</a>
+         <a className='nav-buttons' href={Resume}>resume</a>
       </navbar>
       </>
    )

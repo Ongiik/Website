@@ -16,7 +16,12 @@
       font-family: 'Coolvetica';
       font-weight: 400;
    }
-   
+
+   img {
+      position: absolute;
+      left: 60%;
+      top: 25%;
+   }
 }
 
 p {
@@ -53,4 +58,10 @@ h2 {
       background: lightblue;
       color: #333;
    }
+
+}
+
+#contact {
+   position: absolute;
+   top: 215%;
 }
