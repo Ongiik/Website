@@ -34,7 +34,7 @@ const Contact = () => {
                <a
                   target="_blank"
                   rel="noreferrer"
-                  href="mailto:benen.k18@gmail.com"
+                  href="mailto:benenonkikim@gmail.com"
                >
                   <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
                   <h2>E-Mail</h2>
