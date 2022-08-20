@@ -9,9 +9,9 @@ const Projects = () => {
       <h1 className="proj-head">Projects</h1>
       <div className="grid-container">
          <div className="card">
-            <a href="https://ongiik.github.io/SudokuApplication/" target="_blank">
+            <a href="https://github.com/Ongiik/SudokuSolver/" target="_blank">
                <h2>Sudoku</h2>
-               <img src={sudoku} alt="Sudoku" />
+               <img src={sudoku} alt="Sudoku Solver" />
             </a>
          </div>
          <div className="card">
