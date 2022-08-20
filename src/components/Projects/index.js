@@ -10,7 +10,7 @@ const Projects = () => {
       <div className="grid-container">
          <div className="card">
             <a href="https://github.com/Ongiik/SudokuSolver/" target="_blank">
-               <h2>Sudoku</h2>
+               <h2>Sudoku Solver</h2>
                <img src={sudoku} alt="Sudoku Solver" />
             </a>
          </div>
