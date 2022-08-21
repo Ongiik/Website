@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './index.scss';
-import cutegif from '../../assets/images/cutegif.gif'
+import portrait from '../../assets/images/portrait.jpg'
 const Home = () => {
 
    return (
@@ -12,7 +12,7 @@ const Home = () => {
             <p>Aiming to grow my skills in Full-Stack Development and have a greater understanding in the world of technology.</p>
             <a href='#contact' className='flat-button'>CONTACT ME</a>
          </div>
-         <img src={cutegif} alt="placeholderimg" />
+         <img src={portrait} alt="faceportrait" />
       </div>
       <a id="contact" name="contact"></a>
       </>
