@@ -24,7 +24,7 @@ const Contact = () => {
                <a
                   target="_blank"
                   rel="noreferrer"
-                  href="https://www.linkedin.com/in/benen-kim-59111b184/"
+                  href="https://www.linkedin.com/in/benen-kim/"
                >
                   <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
                   <h2>LinkedIn</h2>
