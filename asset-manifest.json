@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Website/static/css/main.6b50b510.css",
-    "main.js": "/Website/static/js/main.29b45c7d.js",
+    "main.css": "/Website/static/css/main.3d29d540.css",
+    "main.js": "/Website/static/js/main.e36197ae.js",
     "static/js/787.a2cb61a6.chunk.js": "/Website/static/js/787.a2cb61a6.chunk.js",
     "static/media/WeatherFellas.png": "/Website/static/media/WeatherFellas.3d4796f344676a78718f.png",
     "static/media/portrait.jpg": "/Website/static/media/portrait.493250c27e2ae2f7898b.jpg",
@@ -13,12 +13,12 @@
     "static/media/LaBelleAurore.woff2": "/Website/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/Website/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/Website/index.html",
-    "main.6b50b510.css.map": "/Website/static/css/main.6b50b510.css.map",
-    "main.29b45c7d.js.map": "/Website/static/js/main.29b45c7d.js.map",
+    "main.3d29d540.css.map": "/Website/static/css/main.3d29d540.css.map",
+    "main.e36197ae.js.map": "/Website/static/js/main.e36197ae.js.map",
     "787.a2cb61a6.chunk.js.map": "/Website/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b50b510.css",
-    "static/js/main.29b45c7d.js"
+    "static/css/main.3d29d540.css",
+    "static/js/main.e36197ae.js"
   ]
 }
