@@ -1,10 +1,10 @@
 .grid-container {
-   width: 80%;
+   width: 90%;
    height: 90%;
    display: grid;
-   position: absolute;
+   position: relative;
    top: 110%;
-   left: 10%; 
+   left: 5%;
    grid-template-columns: 50% 50%;
    grid-row: auto auto;
    grid-column-gap: 20px;
@@ -51,8 +51,8 @@
 
 .proj-head {
    left: 10%;
-   top: 95%;
-   position: absolute;
+   top: 150%;
+   position: relative;
    font-weight: 800;
    font-size: 60px;
 }

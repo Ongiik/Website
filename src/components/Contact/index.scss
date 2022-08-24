@@ -1,15 +1,23 @@
 .contact-page {
-   position: absolute;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-wrap: wrap;
    top: 215%;
    left: 10%;
+   width: 100%;
+   height: 80%;
 
    h1 {
+      width: 100%;
       font-weight: 800;
       font-size: 60px;
    }
 
    p {
       color: #8D8D8D;
+      width: 50%;
       margin-top: 24px;
       font-weight: 400;
       font-size: 30px;
@@ -19,10 +27,7 @@
    }
 
    ul {
-      position: relative;
-      top: -175px;
-      left: 110%;
-      width: 100px;
+      width: 200px;
       display: block;
       padding: 0;
       list-style: none;
@@ -36,6 +41,7 @@
             line-height: 16px;
             font-family: sans-serif;
             z-index: 1;
+            text-decoration: none;
    
             &:hover svg {
                color: lightblue;
@@ -43,9 +49,9 @@
 
             h2 {
                width: 200px;
-               height: 20px;
-               position: absolute;
-               left: -10px;
+               height: 10px;
+               position: relative;
+               left: -30px;
                opacity: 0%;
                transition: all 0.5s;
                z-index: 0;
@@ -55,7 +61,7 @@
                color: #000;
                opacity: 100%;
                transition: all 0.7s;
-               left: 60px;
+               left: 20px;
             }
          }
       }
